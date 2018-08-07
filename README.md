@@ -1,11 +1,21 @@
 # How_to_build_android_kernel_to_load_modules_dynamically
+
 This a tutorial which shows the steps for: 
-1: unlock bootloader, 
-2: download kernel and cross-compiler sources
-3: compile android kernel with "loadable module support", 
-4: flash the boot.img, 
-5: root the android,
-6: compile your own kernel module and insert it
+
+1.  unlock bootloader, 
+2.  download kernel and cross-compiler sources
+3.  compile android kernel with "loadable module support", 
+4.  flash the boot.img, 
+5.  root the android,
+6.  compile your own kernel module and insert it
+
+This tuto has been done for the following target:
+* Nexus 6 shamu
+* Android: 6.0.1
+* Kernel: 3.10.40 - g557ba38 Nov 4 2015 armv7l
+* Security Update: Dec 2015
+* Build: MMB29K
+* Board Platform: msm 8084
 
 
 ## == Unlock the Bootloader ==
