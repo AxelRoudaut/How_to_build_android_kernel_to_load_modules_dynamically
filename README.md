@@ -355,7 +355,7 @@ Or follow this next steps inspired from [this guide](https://dottech.org/202068/
 
 
 
-## == Compile ClkScrew mymodule.ko module ==
+## == Compile your kernel module ==
 
 * Write your kernel module hello-1.c
 ```
